@@ -5,19 +5,15 @@
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
 // Esto crea la página principal, en nuestro caso en la página móbil, hacer seguimiento para mobil.
-  ga('create', 'UA-49859541-1');
+  ga('create', 'UA-49859541-1', 'auto');
   ga('send', 'pageview');
 
 // Esto crea la página secundaria, en nuestro caso en la página móbil, hacer seguimiento para desktop.
 
-  ga('create', 'UA-49859541-3', {'name': 'dominio-desktop'});
-  ga('dominio-desktop.send', 'pageview');
+  ga('create', 'UA-49859541-3', 'auto', {'name': 'desktop'});
+  ga('desktop.send', 'pageview');
 
 // ahora para mandar los eventos
 
 </script>
-
-
-
-
 
