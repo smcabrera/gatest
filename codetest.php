@@ -15,8 +15,9 @@ I should send an event when this button is clicked.
 <script type="text/javascript" charset="utf-8">
   function gaEvent(category) {
     ga('send', 'event', category, 'clicked');
-    console.log('Event sent')
+    ga('desktop.send', 'event', category, 'clicked');
   }
+
 </script>
 
 <button onclick="gaEvent('button clicked')" type="submit" class='btn btn-success'>
@@ -26,5 +27,5 @@ I should send an event when this button is clicked.
 <a onclick="gaEvent('called')" href="tel:+51951379197">Call me!</a>
 
 </div>
-<body>
+</body>
 </html>
