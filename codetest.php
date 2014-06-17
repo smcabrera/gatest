@@ -24,6 +24,12 @@ I should send an event when this button is clicked.
   Event
 </button>
 
+<br>
+
+<button onclick="gaEvent('Event Goal')" type="submit" class='btn btn-success'>
+  Conversion!
+</button>
+
 <a onclick="gaEvent('called')" href="tel:+51951379197">Call me!</a>
 
 </div>
