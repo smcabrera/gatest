@@ -27,7 +27,3 @@
 <div class='container'>
   <h3><?php echo $pageTitle; ?></h3>
 
-
-
-<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-
